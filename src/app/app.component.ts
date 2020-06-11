@@ -12,7 +12,7 @@ export class AppComponent {
   ip:string;
 
   constructor(private ipservice: IPServiceService) {
-
+    this.GetIP();
   }
 
   GetIP() {
